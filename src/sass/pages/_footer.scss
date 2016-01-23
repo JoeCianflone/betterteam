@@ -1,0 +1,17 @@
+.footer {
+   &__global {
+      @include font-size(13px);
+      color: rgba(get-color(blue-bayoux), 0.5);
+      margin-top: 20px;
+   }
+
+   &__love {
+      color: get-color(carmine-pink);
+   }
+
+   &__help {
+      position: absolute;
+      right: 0;
+      top: 35px;
+   }
+}

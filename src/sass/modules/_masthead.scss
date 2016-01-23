@@ -1,0 +1,14 @@
+.masthead {
+   @include font-size(16px);
+   background: rgba(get-color(deep-sky-blue), 0.02);
+   border-bottom: 1px solid get-color(catskill-white);
+   color: get-color(blue-bayoux);
+   padding: 20px 0;
+}
+
+.logo {
+   @include span(5 of 12);
+   display: inline-block;
+   height: 38px;
+   width: 40px;
+}

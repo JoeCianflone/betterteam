@@ -1,0 +1,24 @@
+.social {
+   &__list {
+      margin-top: 20px;
+   }
+
+   &__item {
+      display: inline-block;
+      margin-right: 10px;
+      @include last() {
+         margin-right: 0;
+      }
+
+      a {
+         @include font-size(10px);
+         background: rgba(get-color(blue-bayoux), 0.4);
+         border-radius: 50%;
+         color: get-color(white);
+         display: block;
+         height: 24px;
+         line-height: get-line-height(10px, 24px);
+         width: 24px;
+      }
+   }
+}

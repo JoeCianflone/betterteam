@@ -1,0 +1,12 @@
+.container {
+   @include container();
+   position: relative;
+   margin: 0 auto;
+   width: $container-width;
+
+   &--flex {
+      @include flex-container();
+      width: $container-width;
+   }
+}
+

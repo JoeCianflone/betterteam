@@ -1,0 +1,10 @@
+.button {
+   &--help {
+      @include font-size(16px);
+      border-radius: 100px;
+      background: rgba(get-color(blue-bayoux), 0.4);
+      color: get-color(white);
+      line-height: get-line-height(16px, 24px);
+      padding: 10px 20px;
+   }
+}
