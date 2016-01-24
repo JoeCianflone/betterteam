@@ -23,7 +23,7 @@
    }
 }
 
-.radio {
+.switch {
    @include font-size(14px);
    @include span(6 of 12);
 
@@ -41,6 +41,12 @@
       line-height: get-line-height(16px, 22px);
       padding: 0 15px;
       width: 100%;
+   }
+
+   &__textarea {
+      @extend .input__text;
+      padding: 25px;
+      min-height: 150px;
    }
 }
 

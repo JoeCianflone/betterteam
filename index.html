@@ -59,8 +59,8 @@
             </header>
             <div class="job-creator">
                <label class="label--full">Should we use the job ad creator to help create a new ad?</label>
-               <label class="radio"><input type="radio" class="radio__button" name="" value="">Yes, use job ad creator</label>
-               <label class="radio"><input type="radio" class="radio__button" name="" value="">No, I'll create a job ad myself</label>
+               <label class="switch"><input type="radio" class="switch__button" name="use-ad-creator" value="true">Yes, use job ad creator</label>
+               <label class="switch"><input type="radio" class="switch__button" name="use-ad-creator" value="false">No, I'll create a job ad myself</label>
                <hr>
                <label class="label--full">
                   Job Title
@@ -71,6 +71,22 @@
                   Location
                   <input type="text" class="input__text js-lookup" data-lookup-type="location" placeholder="Start typing the location...">
                </label>
+               <label class="switch"><input type="checkbox" class="switch__button" name="" value="">This is a remote or telecommute job</label>
+               <hr>
+               <label class="label--full">
+                  Choose the skills you consider to be essential to this position
+               </label>
+               <div class="js-skills"></div>
+               <hr>
+               <label class="label--full">
+                  What benefits do you offer?
+               </label>
+               <div class="js-benefits"></div>
+               <hr>
+               <label class="label--full">
+                  Describe your company
+               </label>
+               <textarea name="" class="input__textarea">About your company...</textarea>
             </div>
             <div class="job-preview">
 
