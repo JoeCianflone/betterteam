@@ -54,11 +54,23 @@
       </header>
       <main>
          <div class="container">
-            <header class="">
-               <h1>Add new job</h1>
+            <header class="job-header">
+               <h1>Add a New Job</h1>
             </header>
             <div class="job-creator">
-
+               <label class="label--full">Should we use the job ad creator to help create a new ad?</label>
+               <label class="radio"><input type="radio" class="radio__button" name="" value="">Yes, use job ad creator</label>
+               <label class="radio"><input type="radio" class="radio__button" name="" value="">No, I'll create a job ad myself</label>
+               <hr>
+               <label class="label--full">
+                  Job Title
+                  <input type="text" class="input__text js-lookup" data-lookup-type="job-title" placeholder="Enter a Job Title">
+               </label>
+               <hr>
+               <label class="label--full">
+                  Location
+                  <input type="text" class="input__text js-lookup" data-lookup-type="location" placeholder="Start typing the location...">
+               </label>
             </div>
             <div class="job-preview">
 

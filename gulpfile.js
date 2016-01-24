@@ -100,7 +100,7 @@ var scripts = {
       config.src.bower + "momentjs/moment.js",
       config.src.bower + "handlebars/handlebars.runtime.js",
       config.src.bower + "amplify/lib/amplify.js",
-      config.src.bower + "jQuery-linkify/dist/jquery.linkify.js",
+      config.src.bower + "devbridge-autocomplete/dist/jquery.autocomplete.js",
       config.src.js    + config.src.templates,
       config.src.js    + "app.js",
       config.src.js    + "resources/**/*.js",

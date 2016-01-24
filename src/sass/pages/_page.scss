@@ -10,3 +10,17 @@
    }
 }
 
+
+.job-header {
+   h1 {
+      @include font-size(28px);
+   }
+}
+
+.job-creator {
+   @include span(6 of 12);
+}
+
+.job-preview {
+   @include span(last 6 of 12);
+}

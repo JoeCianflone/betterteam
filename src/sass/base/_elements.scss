@@ -46,7 +46,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
    font: {
       family: get-stack(sans-serif);
-      weight: get-font-weight(bold);
+      weight: get-font-weight(normal);
    }
    letter-spacing: get-stack(letter-spacing-headlines);
    margin: 0;
@@ -86,4 +86,11 @@ nav {
          padding: 0;
       }
    }
+}
+
+hr {
+   @include span(12 of 12);
+   border: 0;
+   border-top: 1px solid rgba(get-color(blue-bayoux), 0.1);
+   margin: 25px 0;
 }
