@@ -1,10 +1,19 @@
 .button {
+   @include font-size(16px);
+   border: 1px solid rgba(get-color(blue-bayoux), 0.3);
+   border-radius: 3px;
+   color: get-color(blue-bayoux);
+   display: inline-block;
+   line-height: get-line-height(16px, 22px);
+   margin: 0 10px 10px 0;
+   padding: 15px 20px;
+
    &--help {
-      @include font-size(16px);
-      border-radius: 100px;
-      background: rgba(get-color(blue-bayoux), 0.4);
+      @extend .button;
       color: get-color(white);
+      border-radius: 100px;
       line-height: get-line-height(16px, 24px);
+      margin: 0;
       padding: 10px 20px;
    }
 }
@@ -15,7 +24,7 @@
    display: inline-block;
 
    &--full {
-      @extend .label; //Proper use of extend...because this is more like a child inheriting
+      @extend .label;
       @include span(12 of 12);
       @include font-size(18px);
       line-height: get-line-height(18px, 36px);

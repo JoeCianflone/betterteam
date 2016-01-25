@@ -24,3 +24,7 @@
 .job-preview {
    @include span(last 6 of 12);
 }
+
+.incentive-block {
+   @include span(12 of 12);
+}

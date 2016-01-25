@@ -2,11 +2,11 @@ App.Modules = App.Modules || {};
 App.Modules.Lookup = function () {
    var o = {
       titles: [
-         {value: "truck driver", data: "truck-driver"},
-         {value: "computer programmer", data: "programmer"},
-         {value: "computer engineer", data: "CE"},
-         {value: "web developer", data: "web dev"},
-         {value: "event planner", data: "event-planner"},
+         {value: "truck driver", type: "truck-driver"},
+         {value: "computer programmer", type: "programmer"},
+         {value: "computer engineer", type: "CE"},
+         {value: "web developer", type: "web-dev"},
+         {value: "event planner", type: "event-planner"},
       ]
    };
 
